@@ -22,5 +22,6 @@
         "./dist/index.d.mts.map",
         "./dist/index.mjs",
         "./index.mts"
-    ]
+    ],
+    "license": "MIT"
 }
