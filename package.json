@@ -23,5 +23,8 @@
         "./dist/index.mjs",
         "./index.mts"
     ],
+    "repository": {
+        "url": "git+https://github.com/Thristhart/esbuild-plugin-inklecate.git"
+    },
     "license": "MIT"
 }
