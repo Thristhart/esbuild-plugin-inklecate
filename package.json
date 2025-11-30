@@ -1,0 +1,26 @@
+{
+    "name": "esbuild-plugin-inklecate",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "./dist/index.mjs",
+    "scripts": {
+        "build": "tsgo",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "inklecate-bin": "^1.2.0"
+    },
+    "peerDependencies": {
+        "esbuild": "*"
+    },
+    "devDependencies": {
+        "@types/node": "^24.9.2",
+        "@typescript/native-preview": "^7.0.0-dev.20251130.1"
+    },
+    "files": [
+        "./dist/index.d.mts",
+        "./dist/index.d.mts.map",
+        "./dist/index.mjs",
+        "./index.mts"
+    ]
+}
